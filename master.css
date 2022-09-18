@@ -1,0 +1,194 @@
+body{
+    zoom: 1.2;
+}
+img{
+    width: 28px;
+    border-radius: 100px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #eee;
+    background-color: white;
+    position: sticky;    
+    top: 0;
+    z-index: 1;
+}
+.head{
+    display: flex;
+}
+.pp{
+    position: relative;
+}
+.pp::after{
+    content: "1";    color: white;
+    background-color: red;
+    position: absolute;
+    border-radius: 100px;
+    width: 16px;
+    text-align: center;
+    left: 27px;
+    height: 15px;
+    font-size: 12px;
+    box-shadow: -1px -1px 1px 1px white;
+}
+.camera1,
+.camera2{
+    height: 20px;
+}
+h3{
+    position: absolute;
+    left: 132px;
+    top: -24px;
+    font-size: 26px;
+    letter-spacing: 2px;
+}
+.mehdi{
+    width: 39px !important;
+}
+
+input{
+    width: 80%;
+    margin-top: 20px;
+    margin-right: 11px;
+    display: flex;
+    border-radius: 15px;
+    height: 30px;
+    background-color: #eee;
+    justify-content: center;
+    border: 1px solid #eee;
+    margin-left: 58px;
+}
+::placeholder{
+    position: relative;
+    left: 70px;
+}
+.rec{
+   margin-top: -35px;
+}
+.rechercher{
+    position: relative;
+    top: 54px;
+    left: 69px
+}
+input:focus{
+    outline: none;
+}
+
+.general{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.vid{
+    background-color: #eee;
+    display: flex;
+    width: 56px;
+    height: 52px;
+    border-radius: 61px;
+    justify-content: center;
+    align-items: center;
+}
+.ami{
+    width: 56px;
+    height: 52px;
+    border-radius: 61px;
+    position: relative;
+    left: 10px;
+}
+
+.enligne{
+    left: 51px;
+    bottom: 18px;
+}
+.enligne,
+.direct{
+    background-color:#09e147 ;
+    width: 12px;
+    position: relative;
+    height: 12px;
+    border-radius: 30px;
+    box-shadow: -1px -1px 1px 1px white;
+}
+.vs{
+    position: relative;
+    left: 10px;
+    top: 5px;
+}
+.child .vs{
+    top: -14px;
+}
+.salle{
+    height: 30px;
+}
+.message{
+    display: flex;
+    flex-direction: column;
+}
+.vini{
+    width: 56px;
+    height: 52px;
+    border-radius: 61px;
+}
+.ktaba{
+    position: relative;
+    bottom: 28px;
+    left: 10px;
+}
+.ktaba,
+#font{
+    font-family: system-ui;
+}
+#font{
+    font-weight: bold;
+}
+.mes{
+    position: relative;
+    left: 68px;
+    bottom: 23px;
+}
+.tmps{
+    background-color: #22d91187;
+    width: 26px;
+    height: 14px;
+    position: relative;
+    bottom: 34px;
+    left: 36px;
+    border-radius: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+}
+.direct{
+    left: 41px;
+    bottom: 37px;
+}
+.zlatan{
+    position: relative;
+    bottom: 55px;
+    left: 399px;
+}
+.pzlatan{
+    width: 17px !important;
+}
+.don{
+    position: relative;
+    bottom: 55px;
+    left: 474px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    bottom: 19px;
+    position: sticky;
+    bottom: 0px;
+   background-color: white;
+}
+.contact{
+    opacity: 0.8;
+}
